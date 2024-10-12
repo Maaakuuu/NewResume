@@ -120,3 +120,88 @@ footer {
     box-sizing: border-box;
     font-size: 0.9em;
 }
+
+/* Contact Page */
+
+body {
+
+}
+
+.contact-container {
+    max-width: 1500px;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-image {
+    display: block; 
+    margin: 20px auto; 
+    max-width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 15px; 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flexbox;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.info-item i {
+    margin-right: 10px;
+}
+
+.info-item a {
+    color: #4A4947;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    text-decoration: none;
+    font-size: 16px; 
+    color: white; 
+    margin: 5px 0; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.facebook-button {
+    background-color: #829bd1;
+}
+
+.instagram-button {
+    background-color: #d87b9a;
+}
+
+.social-button:hover {
+    transform: scale(1.05);
+}
+
+.social-button i {
+    margin-right: 8px;
+}
+
+
